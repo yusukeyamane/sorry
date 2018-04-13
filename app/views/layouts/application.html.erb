@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Suman</title>
+    <%= render partial: 'layouts/meta_tags' %>
+    <%= csrf_meta_tags %>
+    <%= javascript_pack_tag 'main' %>
+    <%= stylesheet_pack_tag 'main' %>
+    <%= favicon_link_tag %>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
